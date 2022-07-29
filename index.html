@@ -33,12 +33,17 @@
         <header class="site-header">
             <div class="container">
                 <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <img class="header-logo-image logo_img" src="dist/images/LDPNG.png" alt="Logo">
-                            </a>
-                        </h1>
+                    <div class="brand header-brand align-logo">
+                        <nav>
+                            <ul class="footer-social-links list-reset align-logo">
+                                <li>
+                                    <a href="">
+                                        <img class="header-logo-image logo_grey_sm" src="dist/images/Grey_LD_Icone.png"
+                                            alt="Logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -49,14 +54,38 @@
                 <div class="container">
                     <div class="hero-inner">
                         <div class="hero-copy">
-                            <h1 class="hero-title mt-0">Olá, Tudo bem? <br> Meu nome é Lucas Dias!</h1>
+                            <h2 class="hero-title mt-0">Olá, Tudo bem? <br> Meu nome é Lucas Dias!</h2>
                             <p class="hero-paragraph">Sou desenvolvedor e apaixonado por técnologia.</p>
                             <div class="hero-cta">
-                                <a class="button-md button-primary"
-                                    href="https://www.linkedin.com/in/lucasrdias/">LinkedIn</a>
-                                <a class="button-md button-purple" href="https://github.com/lucasrafa2008">GitHub</a>
+                                <ul class=" footer-social-links list-reset align-redes-sociais">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/lucasrdias/" target="_blank">
+                                            <span class="screen-reader-text">Linkedin</span>
+                                            <i class="fa-brands fa-linkedin-in" style="font-size:36px"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=5538991206281&text=Ol%C3%A1%2C%20estou%20vindo%20pelo%20seu%20site.%20Gostaria%20de%20conversar%20sobre%20o%20seu%20trabalho."
+                                            target="_blank">
+                                            <span class="screen-reader-text">WhatsApp</span>
+                                            <i class="fa-brands fa-whatsapp" style="font-size:36px"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://github.com/lucasrafa2008" target="_blank">
+                                            <span class="screen-reader-text">Github</span>
+                                            <i class="fa-brands fa-github" style="font-size:36px"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- <a class="button-md button-primary" href="https://www.linkedin.com/in/lucasrdias/"
+                                    target="_blank">LinkedIn</a>
+                                <a class="button-md button-purple" href="https://github.com/lucasrafa2008"
+                                    target="_blank">GitHub</a>
                                 <a class="button-md button-green"
-                                    href="https://api.whatsapp.com/send?phone=5538991206281&text=Ol%C3%A1%2C%20estou%20vindo%20pelo%20seu%20site.%20Gostaria%20de%20conversar%20sobre%20o%20seu%20trabalho.">WhatsApp</a>
+                                    href="https://api.whatsapp.com/send?phone=5538991206281&text=Ol%C3%A1%2C%20estou%20vindo%20pelo%20seu%20site.%20Gostaria%20de%20conversar%20sobre%20o%20seu%20trabalho."
+                                    target="_blank">WhatsApp</a> -->
                             </div>
                         </div>
 
@@ -83,12 +112,14 @@
                     </div>
                 </div>
             </section>
+
             <section class="features section">
                 <div class="container">
                     <div class="features-inner section-inner has-bottom-divider">
-
+                        <div class="texto_titulo">
+                            <h2>Minhas Habilidades</h2>
+                        </div>
                         <div class="features-wrap">
-
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <h4 class="feature-title mt-24">PHP</h4>
@@ -108,13 +139,10 @@
                                     <p class="text-sm mb-0">CSS Vanilla, e com os Frameworks: Bootstrap e MaterializeCSS
                                     </p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="features-inner section-inner has-bottom-divider">
-
-
                         <div class="features-wrap">
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
@@ -135,14 +163,12 @@
                                     <h4 class="feature-title mt-24">Varias Aplicações</h4>
                                     <p class="text-sm mb-0">Zabbix, Grafana, Docker.</p>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </section>
+
             <section class="features section">
                 <div class="container">
                     <div class="features-inner section-inner has-bottom-divider">
@@ -150,83 +176,95 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="https://github.com/lucasrafa2008/User_Wifi_Manager" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/User_Wifi_Manager" target="_blank"
+                                            class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4   class="feature-title mt-24"><a href="https://github.com/lucasrafa2008/User_Wifi_Manager">User_Wifi_Manager</a></h4>
-                                    <p class="text-sm mb-0">Aplicação de integração entre o sistema de gestão de alunos da universidade junto ao sistema DaloRadius, 
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/User_Wifi_Manager"
+                                            target="_blank">User_Wifi_Manager</a></h4>
+                                    <p class="text-sm mb-0">Aplicação de integração entre o sistema de gestão de alunos
+                                        da universidade junto ao sistema DaloRadius,
                                         para controle de usuários de WiFi.</p>
                                 </div>
                             </div>
-
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="https://github.com/lucasrafa2008/Multiserver_User_Control" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/Multiserver_User_Control"
+                                            target="_blank" class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4  class="feature-title mt-24"><a href="https://github.com/lucasrafa2008/Multiserver_User_Control">Multiserver_User_Control</a></h4>
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/Multiserver_User_Control"
+                                            target="_blank">User Management on Multiple Servers</a></h4>
                                     <p class="text-sm mb-0">Aplicação de gestão de usuários em varios servidores.</p>
                                 </div>
                             </div>
-
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="https://github.com/lucasrafa2008/School_Management" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/School_Management" target="_blank"
+                                            class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4  class="feature-title mt-24"><a href="https://github.com/lucasrafa2008/School_Management">School_Management Public</a></h4>
-                                    <p class="text-sm mb-0">Projeto pessoal de controle escolar, tendo turmas, cursos, professores e alunos.</p>
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/School_Management"
+                                            target="_blank">School_Management Public</a></h4>
+                                    <p class="text-sm mb-0">Projeto pessoal de controle escolar, usando PHP(Laravel) e
+                                        Banco de dados(MySQL).</p>
                                 </div>
                             </div>
-                            
                         </div>
-
-
                         <div class="features-wrap">
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/inventory_control" target="_blank"
+                                            class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4   class="feature-title mt-24"><a href="">User_Wifi_Manager</a></h4>
-                                    <p class="text-sm mb-0">Aplicação de integração entre o sistema de gestão de alunos da universidade junto ao sistema DaloRadius, 
-                                        para controle de usuários de WiFi.</p>
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/inventory_control"
+                                            target="_blank">Inventory Management System</a></h4>
+                                    <p class="text-sm mb-0">Projeto pessoal de controle de estoque usando PHP(Laravel),
+                                        Banco de dados(MySQL).</p>
                                 </div>
                             </div>
-
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/Exercicios_JS" target="_blank"
+                                            class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4  class="feature-title mt-24"><a href="">Multiserver_User_Control</a></h4>
-                                    <p class="text-sm mb-0">Aplicação de gestão de usuários em varios servidores.</p>
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/Exercicios_JS"
+                                            target="_blank">Exercicios JavaScript</a></h4>
+                                    <p class="text-sm mb-0">Varios Exercicios em JavaScript, com a intenção de melhorar
+                                        minhas habilidades.</p>
                                 </div>
                             </div>
-
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <a href="https://github.com/lucasrafa2008/Exercicios_PHP" class="fa-brands fa-github" style="font-size:100px"></a>
+                                        <a href="https://github.com/lucasrafa2008/Exercicios_PHP" target="_blank"
+                                            class="fa-brands fa-github" style="font-size:100px"></a>
                                     </div>
-                                    <h4  class="feature-title mt-24"><a href="https://github.com/lucasrafa2008/Exercicios_PHP">Exercicios de PHP</a></h4>
-                                    <p class="text-sm mb-0">Varios Exercicios em PHP, usado para polir as minhas habilidades</p>
+                                    <h4 class="feature-title mt-24"><a
+                                            href="https://github.com/lucasrafa2008/Exercicios_PHP"
+                                            target="_blank">Exercicios de PHP</a></h4>
+                                    <p class="text-sm mb-0">Varios Exercicios em PHP, com a intenção de melhorar minhas
+                                        habilidades.</p>
                                 </div>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
             </section>
         </main>
 
-        </main>
-
         <footer class="site-footer">
             <div class="container">
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
-                        <a href="#">
-                            <img class="header-logo-image logo_img" src="dist/images/LDPNG.png" alt="Logo">
+                        <a href="">
+                            <img class="header-logo-image  logo_grey" src="dist/images/Grey_LD_Icone.png" alt="Logo">
                         </a>
                     </div>
 
