@@ -1,0 +1,40 @@
+.logo_img {
+    border-radius: 50%;
+}
+
+.panelprojects {
+    font-size: 1000cm;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo_grey {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.logo_grey_sm {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.texto_titulo {
+    text-align: center;
+}
+
+.align-logo {
+    display: flex;
+    justify-content: start;
+}
+
+.align-redes-sociais {
+
+    display: flex;
+    justify-content: start;
+}
